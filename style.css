@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body{ 
+    font-family: 'Raleway', sans-serif
+}*/
+
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+.container {
+    margin: 0px auto;
+    padding: 0px 50px;
+    width: 100%;
+    max-width: 1820px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    justify-content: space-between;
+}
+
+/* .nav {
+    margin-bottom: 150px;
+} */
+
+.mainheader {
+    background-color: #e1f3fd;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px;
+    /* padding-bottom: 70px; */
+}
+
+.logo {
+    padding-right: 210px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 49px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: #f2df65;
+}
+
+.slider {
+    /* font-family: ; */
+    padding-left: 310px;
+    padding-top: 200px;
+}
+
+.mainslider {
+    background-color: #e1f3fd;
+}
+
+.slider h2 {
+    font-size: 44px;
+}
+
+.slider h1 {
+    font-size: 111px;
+    padding: 9px 0 30px 0;
+}
+
+.slider p {
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+}
+
+.button-one {
+    padding: 17px 71px;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    border: 1px;
+    font-size: 23px;
+    margin-right: 17px;
+}
+
+.button-two {
+    padding: 17px 37px;
+    border-radius: 7px;
+    background-color: #fed200;
+    color: black;
+    border: 1px;
+    font-size: 23px;
+}
+
+.slider {
+    display: flex;
+}
+
+.slider-left {
+    width: 50%;
+}
+
+.slider-right {
+    width: 50%;
+}
